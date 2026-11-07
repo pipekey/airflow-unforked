@@ -44,7 +44,7 @@ from enum import Enum
 from pathlib import Path
 from typing import Any
 
-APACHE_REPO = "apache/airflow"
+APACHE_REPO = "pipekey/airflow-unforked"  # SIMULATION ONLY
 
 LABEL_FORK_CI_REQUIRED = "fork ci required"
 LABEL_USE_PROJECT_CI = "use project ci"
