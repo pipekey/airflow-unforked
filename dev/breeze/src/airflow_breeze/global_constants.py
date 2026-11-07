@@ -75,7 +75,7 @@ CI_PLATFORMS = [CI_AMD_PLATFORM, CI_ARM_PLATFORM]
 
 ANSWER = ""
 
-APACHE_AIRFLOW_GITHUB_REPOSITORY = "apache/airflow"
+APACHE_AIRFLOW_GITHUB_REPOSITORY = "pipekey/airflow-unforked"  # SIMULATION ONLY
 
 # Checked before putting in build cache
 ALLOWED_PYTHON_MAJOR_MINOR_VERSIONS = ["3.11", "3.12", "3.13", "3.14"]
