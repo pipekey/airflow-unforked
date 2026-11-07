@@ -36,7 +36,7 @@ jobs:
   revoke-fork-ci-passed:
     name: "Revoke the fork CI result of a pull request moved to project CI"
     if: >
-      github.repository == 'apache/airflow' && (
+      github.repository == 'pipekey/airflow-unforked' && (
         (github.event.action == 'labeled' && github.event.label.name == 'use project ci') ||
         (github.event.action != 'labeled' &&
           contains(github.event.pull_request.labels.*.name, 'use project ci'))
